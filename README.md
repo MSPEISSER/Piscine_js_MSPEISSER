@@ -13,7 +13,7 @@ module.exports = {
   substract
 }
 
-===============EXO 2======================
+===============EXO 1======================
 
 /* Ecrivez une fonction qui prend deux paramètres et qui retourne la somme des deux paramètres. Votre fonction devra se nommer add */
 
@@ -26,7 +26,7 @@ module.exports = {
   add
 }
 
-===============EXO 3======================
+===============EXO 2======================
 
 /* Ecrivez une fonction multiply qui prend deux paramètres et retourne la multiplication des deux paramètres */
 
@@ -40,6 +40,23 @@ module.exports = {
   multiply
 }
 
+===============EXO 3======================
+
+/* Ecrivez une fonction divide qui prend en paramètre deux arguments et qui retourne la division du premier par le second, attention la division par zéro est interdite et doit retourner la chaîne de caractère Forbidden */
+
+function divide (a, b){
+  if (b === 0) {
+return("Forbidden")
+} else {
+return a/b;
+  }
+}
+
+// Ne touchez pas les lignes en dessous
+module. exports = {
+  divide
+}
+
 ===============EXO 4======================
 
 
@@ -49,3 +66,23 @@ module.exports = {
 
 
 ===============EXO 6======================
+
+
+
+===============EXO 7======================
+
+
+===============EXO 8======================
+
+
+
+===============EXO 9======================
+
+
+
+===============EXO 10=======================
+
+
+
+
+
