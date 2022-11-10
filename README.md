@@ -125,12 +125,71 @@ console.log("fin du programme")
 
 ===============EXO 7======================
 
+// Hello user ! 
+/* Ecrire un programme qui affiche dans la console le texte suivant (OUTPUT).
+Le programme doit demander à l'utilisateur son prénom. Et ensuite lui souhaiter une belle journée avec son prénom indiqué.
+
+===== OUTPUT =====
+
+Hello user !
+How are you today ? What is your name ?> Peter
+Have a nice day Peter !
+
+===============
+
+Explications du programme, Peter est le nom indiqué par l'utilisateur, le programme sera testé avec différentes valeurs et devra affiché la valeur indiqué par l'utlisateur lors de la demande du programme.
+*/
 
 
+// Pensez à tester votre programme sur index.js
+
+console.log("hello user!")
+let name= prompt("how are you today ? What's your name")
+console.log("have a nice day" + ' '+name +'!')
 
 ===============EXO 8======================
 
+// Rebecca's Secret Message 
 
+/* 
+  
+Rebecca est amoureuse de David, elle a crée un programme spécialement pour lui avouer sa flamme lors de son prochain cours de programmation.
+le programme à la comportement suivant : 
+
+Le programme va saluer l'utilisateur 
+Ensuite lui demander son prénom ?
+Et si le prénom de l'utilisateur est David, le programme affiche :
+"I really wanna stay at your house, and i hope this works out"
+Si le prénom de l'utilisateur n'est pas David le programmie affiche : 
+"Get away !"
+
+====OUTPUT case David==== 
+
+Welcome to my secret Diary !
+What is your name ?> David
+I really wanna stay at your house, and i hope this works out...
+
+
+====OUTPUT case Other==== 
+Welcome to my secret Diary !
+What is your name ?> Juan
+Get Away !
+
+
+//Pensez à tester votre code sur index.js
+
+  */
+
+
+console.log("Welcome to my secret diary !")
+
+const name = prompt("What's your name ?");
+
+if (name === "David") {
+  console.log("I really wanna stay at your house, and i hope this works out");
+} else {
+  console.log("Get away !");
+}
 
 ===============EXO 9======================
 
