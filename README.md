@@ -285,3 +285,31 @@ module.exports = {
 }
 
 
+
+
+
+
+✅  Should_Return_a_plus_b_sum_ex01
+
+✅  Should_return_a_multiplied_by_b_ex02
+
+✅  Should_return_a_divided_by_b_and_forbidden_when_b_is_equal_to_zero_ex03
+
+✅  Should_return_a_divided_by_b_when_b_is_not_zero_ex02
+
+✅  Should_return_a_modulo_b_ex04
+
+✅  Should_return_a_minus_b_ex00
+
+✅  Should_return_choom_when_a_is_even_ex09
+
+✅  Should_return_choomChoom_when_a_is_odd_ex09
+
+✅  Should_return_cyber_if_is_multipleOf_3_ex10
+
+✅  Should_return_Punk_if_cybernumber_is_multipleOf_5_ex10
+
+✅  Should_return_CyberPunk2077_if_cybernumber_is_multipleOf_3_and_5_ex10
+
+  All tests have passed 11/11  
+
